@@ -1,5 +1,5 @@
 name = "grain"
-# grammar = "grain"
+grammar = "grain"
 path_suffixes = ["gr"]
 line_comments = ["// "]
 block_comments = ["/*", "*/"] # TODO: Should we add doc comments here
