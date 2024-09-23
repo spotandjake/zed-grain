@@ -1,0 +1,15 @@
+id = "grain"
+name = "Grain"
+version = "0.0.1"
+schema_version = 1
+authors = ["grain-lang"]
+description = "Grain support for Zed"
+repository = "https://github.com/spotandjake/zed-grain"
+
+[grammars.grain]
+repository = "https://github.com/marceline-cramer/tree-sitter-grain"
+commit = "28d5fad602d7a583b2519e6996ad0dcfbe56239a"
+
+[language_servers.grain]
+name = "Grain Language Server"
+language = "grain"
