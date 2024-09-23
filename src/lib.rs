@@ -1,3 +1,4 @@
+// TODO: Bring in line with vscode extension
 use std::fs;
 use zed_extension_api::{self as zed, settings::LspSettings, LanguageServerId, Result};
 
