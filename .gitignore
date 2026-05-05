@@ -1,6 +1,9 @@
-.DS_Store
-target
-*.wasm
-**/*.rs.bk
-test/
+# Rust
+target/
+
+# Zed Extension
+extension.wasm
 grammars/
+
+# Mac os
+.DS_Store

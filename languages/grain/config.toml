@@ -2,7 +2,7 @@ name = "grain"
 grammar = "grain"
 path_suffixes = ["gr"]
 line_comments = ["// "]
-block_comments = ["/*", "*/"] # TODO: Should we add doc comments here
+block_comments = ["/*", "*/", "/**", "**/"]
 brackets = [
   { start = "{", end = "}", close = true, newline = true },
   { start = "[", end = "]", close = true, newline = true },
