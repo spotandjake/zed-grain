@@ -8,7 +8,7 @@ repository = "https://github.com/spotandjake/zed-grain"
 
 [grammars.grain]
 repository = "https://github.com/Kara-Zor-El/tree-sitter-grain"
-commit = "f0b537070d15d37190b70b0336fd5055d88b4d30"
+commit = "c0d72c602faf41a65ad14284fe00736c392dfb07"
 
 [language_servers.grain]
 name = "Grain Language Server"
