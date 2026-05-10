@@ -36,3 +36,9 @@
 ((doc_example_body_line
   (doc_example_line_code) @injection.content)
   (#set! injection.language "grain"))
+
+; Support for https://github.com/thedadams/zed-comment
+((line_comment) @injection.content
+  (#set! injection.language "comment"))
+((block_comment) @injection.content
+  (#set! injection.language "comment"))

@@ -5,5 +5,8 @@ target/
 extension.wasm
 grammars/
 
+# Testing
+test.gr
+
 # Mac os
 .DS_Store
