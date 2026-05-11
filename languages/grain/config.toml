@@ -2,17 +2,25 @@ name = "grain"
 grammar = "grain"
 path_suffixes = ["gr"]
 line_comments = ["// "]
-block_comments = ["/*", "*/", "/**", "**/"]
+block_comment = { start = "/*", prefix = "*", end = "*/", tab_size = 2 }
+documentation_comment = { start = "/**", end = "*/", prefix = "* ", tab_size = 2 }
+tab_size = 2
 brackets = [
   { start = "{", end = "}", close = true, newline = true },
   { start = "[", end = "]", close = true, newline = true },
-  { start = "(", end = ")", close = true, newline = true },
+  { start = "[>", end = "]", close = true, newline = true },
+  { start = "(", end = ")", close = true, newline = false },
   { start = "\"", end = "\"", close = true, newline = false, not_in = [
     "string",
+    "comment",
   ] },
   { start = "'", end = "'", close = true, newline = false, not_in = [
+    "string",
+    "char",
+    "comment",
+  ] },
+  { start = "/*", end = "*/", close = true, newline = true, not_in = [
     "string",
     "comment",
   ] },
 ]
-tab_size = 2

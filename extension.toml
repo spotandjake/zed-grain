@@ -2,13 +2,13 @@ id = "grain"
 name = "Grain"
 version = "0.0.1"
 schema_version = 1
-authors = ["spotandjake"]
+authors = ["spotandjake", "Kara-Zor-El"]
 description = "Grain support for Zed"
 repository = "https://github.com/spotandjake/zed-grain"
 
 [grammars.grain]
 repository = "https://github.com/Kara-Zor-El/tree-sitter-grain"
-commit = "c0d72c602faf41a65ad14284fe00736c392dfb07"
+commit = "0c06f8e0ece0cddac70710a561fddabd5ebf2ecb"
 
 [language_servers.grain]
 name = "Grain Language Server"
